@@ -1,0 +1,14 @@
+{
+  "name": "node-website",
+  "version": "1.0.0",
+  "description": "Простой сайт на Node.js с Express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "author": "",
+  "license": "ISC"
+}
