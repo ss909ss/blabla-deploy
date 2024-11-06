@@ -3,10 +3,8 @@ const path = require('path');
 
 const app = express();
 
-// Указываем, что папка 'public' будет хранить статические файлы
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Роут для главной страницы
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
